@@ -1,7 +1,7 @@
 Feature: Is it Friday yet?
   Everybody wants to know when it's Friday
 
-  #Rule: Rule for all Fridays
+  Rule: Rule for all Fridays
 
     Scenario Outline: Today is or is not Friday
       Given today is "<day>"
