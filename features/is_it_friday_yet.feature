@@ -12,9 +12,3 @@ Rule: Rule for all Fridays 2
     Given today is "Friday"
       When I ask whether it's Friday yet
       Then I should be told "TGIF"
-
-Examples:
-  | day            | answer |
-  | Friday         | TGIF   |
-  | Sunday         | Nope   |
-  | anything else! | Nope   |
